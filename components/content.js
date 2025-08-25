@@ -53,13 +53,14 @@ export default function Content() {
                             return (
                                 <Cards name={value?.login} image={value?.avatar_url} ulink={value?.url} key={value.id} />
                             )})):(
-                            <Cards name={Profiles?.login} image={Profiles?.avatar_url} ulink={Profiles?.url} key={Profiles.id} />)
+                            <Cards name={Profiles?.login} image={Profiles?.avatar_url} ulink={Profiles?.html_url} key={Profiles.id} />)
                         )}
 
             </div>
         </>
     )
 }
+
 
 
  
