@@ -51,7 +51,7 @@ export default function Content() {
                 {Profiles &&
                     (num ? (Profiles.map((value) => {
                             return (
-                                <Cards name={value?.login} image={value?.avatar_url} ulink={value?.url} key={value.id} />
+                                <Cards name={value?.login} image={value?.avatar_url} ulink={value?.html_url} key={value.id} />
                             )})):(
                             <Cards name={Profiles?.login} image={Profiles?.avatar_url} ulink={Profiles?.html_url} key={Profiles.id} />)
                         )}
@@ -64,3 +64,4 @@ export default function Content() {
 
 
  
+
