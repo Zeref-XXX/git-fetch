@@ -1,0 +1,31 @@
+{
+  "homepage": "https://zeref-xxx.github.io/get-fetch",
+  "name": "9",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.14.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeref-XXX/git-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zeref-XXX/git-fetch/issues"
+  },
+  "description": ""
+}
